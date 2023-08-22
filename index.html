@@ -3,12 +3,140 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 style="font-weight: bolder">changing background color project</h1>
-    <button style="font-size: large" id="start">start</button>
-    <button style="font-size: large" id="stop">stop</button>
+    <nav>
+      <div class="brand">
+        <div id="logo"><img src="download.png" alt="logo" /></div>
+        <div class="logoname"><p>Spotify</p></div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="Container">
+      <div class="SongList">
+        <h1>Best of NCS-No Copyright Sounds</h1>
+        <div class="songItem">
+          <img src="images.jpg" alt="1" />
+          <span class="songName">Let me Love You</span>
+          <span class="songlistplay"
+            ><span class="spantime"
+              >05:34<i
+                id="0"
+                class="far fa-solid fa-play songItemPlay"
+              ></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <img src="images.jpg" alt="1" />
+          <span class="songName">Let me Love You</span>
+          <span class="songlistplay"
+            ><span class="spantime"
+              >05:34<i
+                id="1"
+                class="far fa-solid fa-play songItemPlay"
+              ></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <img src="images.jpg" alt="1" />
+          <span class="songName">Let me Love You</span>
+          <span class="songlistplay"
+            ><span class="spantime"
+              >05:34<i
+                id="2"
+                class="far fa-solid fa-play songItemPlay"
+              ></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <img src="images.jpg" alt="1" />
+          <span class="songName">Let me Love You</span>
+          <span class="songlistplay"
+            ><span class="spantime"
+              >05:34<i
+                id="3"
+                class="far fa-solid fa-play songItemPlay"
+              ></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <img src="images.jpg" alt="1" />
+          <span class="songName">Let me Love You</span>
+          <span class="songlistplay"
+            ><span class="spantime"
+              >05:34<i
+                id="4"
+                class="far fa-solid fa-play songItemPlay"
+              ></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <img src="images.jpg" alt="1" />
+          <span class="songName">Let me Love You</span>
+          <span class="songlistplay"
+            ><span class="spantime"
+              >05:34<i
+                id="5"
+                class="far fa-solid fa-play songItemPlay"
+              ></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <img src="images.jpg" alt="1" />
+          <span class="songName">Let me Love You</span>
+          <span class="songlistplay"
+            ><span class="spantime"
+              >05:34><i id="6" class="far fa-solid fa-play songItemPlay"></i
+            ></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="images.jpg" alt="1" />
+          <span class="songName">Let me Love You</span>
+          <span class="songlistplay"
+            ><span class="spantime"
+              >05:34<i id="7" class="far fa-solid fa-play songItemPlay"></i
+            ></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="images.jpg" alt="1" />
+          <span class="songName">Let me Love You</span>
+          <span class="songlistplay"
+            ><span class="spantime"
+              >05:34<i
+                id="8"
+                class="far fa-solid fa-play songItemPlay"
+              ></i></span
+          ></span>
+        </div>
+      </div>
+
+      <div class="Banner"></div>
+    </div>
+
+    <footer class="bottom">
+      <input type="range" id="MyProgress" value="0" min="0" max="100" />
+      <div class="icon">
+        <div>
+          <img src="8f29db0d2a8aefacac1ecf5e4f64418b.gif" alt="gif" id="gif" />
+        </div>
+        <i class="fas fa-3x fa-step-backward" id="previos"></i>
+        <i class="far fa-3x fa-solid fa-play" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+      </div>
+      <div id="playingname"></div>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e07fcd466a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <script src="script.js"></script>
 </html>
