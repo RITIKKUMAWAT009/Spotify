@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: black;
+  height: 60px;
+}
+
+.logoname p {
+  color: white;
+  font-size: 1.6rem;
+  padding-top: 30px;
+  font-weight: bolder;
+}
+nav ul li {
+  color: white;
+  padding: 30px;
+  list-style-type: none;
+}
+nav ul {
+  display: flex;
+}
+
+.brand {
+  display: flex;
+}
+#logo img {
+  align-items: center;
+  padding: 2px;
+  height: 44px;
+  background-size: cover;
+}
+.Container {
+  min-height: 70%;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 30px auto;
+  width: 70%;
+  background-image: url("girl-with-black-headphone-a09f6yk2y3h937yo.jpg");
+  background-size: cover;
+}
+.Banner {
+  height: 80vh;
+}
+.bottom {
+  position: sticky;
+  background-color: black;
+  height: 120px;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* #MyProgress {
+  width: 50vw;
+  scrollbar-track-color: blueviolet;
+} */
+
+#MyProgress {
+  width: 80vw;
+  cursor: pointer;
+}
+i {
+  height: 5px;
+  margin-top: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+.SongList {
+  display: flex;
+  flex-direction: column;
+}
+
+.songItem {
+  height: 40px;
+
+  display: flex;
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+  margin-top: 20px;
+}
+.songItem img {
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+.spantime {
+  align-items: center;
+  padding-right: 5px;
+}
+.songInfo {
+  width: 10px;
+  height: 20px;
+}
+.icon img {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  left: 187px;
+}
+.icon img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
